@@ -2,4 +2,4 @@
 
 https://oshimago.github.io/WCBCafe/
 
-『1冊ですべて身につくHTML & CSSとWebデザイン入門講座［第2版］』（Mana (著)）
+『1冊ですべて身につくHTML & CSSとWebデザイン入門講座［第2版］』（Mana (著)）をベースにCSSのカスタムプロパティやネストで記述する練習
