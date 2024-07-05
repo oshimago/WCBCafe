@@ -5,7 +5,6 @@
   --main: #0bd;
 }
 
-
 html {
   font-size: 100%;
 }
@@ -21,6 +20,11 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 1.5rem;
+}
 .align-center {
   text-align: center;
 }
@@ -108,18 +112,17 @@ img {
   margin: auto;
   padding: 0 1.5rem;
   border-spacing: 0;
-}
-.info th,
-.info td {
-  border-bottom: 1px solid #c9c3bc;
-}
-.info th {
-  text-align: left;
-  font-weight: normal;
-  padding: 1rem;
-}
-.info td {
-  padding: 1rem 0;
+  th, td {
+    border-bottom: 1px solid #c9c3bc;
+  }
+  th {
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+  }
+  td {
+    padding: 1rem 0;
+  }
 }
 .copyright {
   background-color: #432;
@@ -127,4 +130,35 @@ img {
   padding: 2rem 0;
   margin-top: 6rem;
   color: #fff;
+}
+
+@media ( 800px <= width) {
+  .page-title {
+    font-size: 5rem;
+  }
+  .heading-large {
+    font-size: 4rem;
+  }
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+  .main-nav {
+    font-size: 2rem;
+  }
+
+  .cover-home {
+    background-image: url(../images/cover-home-l.webp);
+  }
+  .about {
+    margin: 4rem auto 0;
+  }
+  .page-footer {
+    background-image: url(../images/footer-l.webp);
+    padding-top: 12rem;
+  }
+  .info th {
+    padding-left: 2.5rem;
+  }
 }
