@@ -50,7 +50,7 @@ img {
   display: inline-block;
   font-size: 1.5rem;
   background-color: var(--main);
-  color: #fff;
+  color: #363535;
   border-radius: 8px;
   padding: .75rem 1.5rem;
   transition: .5s;
@@ -85,6 +85,12 @@ img {
   background-position: center bottom;
   height: 800px;
 }
+.sub-cover {
+  background-size: cover;
+  background-position: center bottom;
+  height: 528px;
+  margin-bottom: 4rem;
+}
 .cover-home {
   background-image: url(../images/cover-home-s.webp);
 }
@@ -97,6 +103,10 @@ img {
   p {
     margin-bottom: 3rem;
   }
+}
+
+.cover-news {
+  background-image: url(../images/cover-news-s.webp);
 }
 
 .page-footer {
